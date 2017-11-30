@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(117, 42, 42);
+}
+
+.topnav {
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+#header {
+	background-color: rgb(192,189,220);
+	border-style: solid;
+	border-color: black;
+	margin: 10px;
+	position:absolute;
+	left:0; right:0;
+	height:375px
+}
+
+#welcome {
+	color: rgb(75, 34, 136);
+	text-align: center;
+}
+
+#wImg {
+	margin: 10px;
+}
+
+#addPhone {
+	margin: 10px;
+	text-align: right;
+}
+
+#events {
+	background-color: rgb(240, 214, 191);
+	border-style: solid;
+	border-color: black;
+	position:absolute;
+	left:25px; top:500px; bottom:25px;
+	height: 800px;
+	width:250px;
+}
+
+#eHead {
+	text-align: center;
+	color: rgb(118, 133, 172);
+}
+
+#theButton {
+	align: center;
+}
+
+#campuses {
+	position: absolute;
+	top: 475px;
+	right: 50px;
+	bottom: 25px;
+	left:350px;
+}
+
+#cHead {
+	color: rgb(101, 190, 72);
+	text-align: center;
+}
+
+#stj {
+	background-color: rgb(233, 255, 193);
+	border-style: solid;
+	border-color: black;
+	margin: 10px;
+}
+
+#sInfo {
+	margin: 10px;
+	text-align: left;
+}
+
+#sImg {
+	margin: 10px;
+}
+
+#gImg {
+	margin: 10px;
+}
+
+#gInfo {
+	margin: 10px;
+	text-align: left;
+}
+
+#mInfo {
+	margin: 10px;
+	text-align: left;
+}
+
+#mImg {
+	margin: 10px;
+}
+
+#grenfell {
+	background-color: rgb(233, 255, 193);
+	border-style: solid;
+	border-color: black;
+	margin: 10px;
+}
+
+#marine {
+	background-color: rgb(233, 255, 193);
+	border-style: solid;
+	border-color: black;
+	margin: 10px;
+}
+
+#footer {
+	background-color: rgb(240, 239, 237);
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+	position:absolute;
+	bottom:0; left:0; right:0; top:1300px;
+	height: 50px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>MUN Main Page</title>
+		<link rel ="stylesheet" type ="text/css" href ="MainPage.css" />
+		<script type="text/javascript" src= "mainpage.js"></script>
+	</head>
+	
+	<body onload="checkEdits()">
+	
+		
+		<div class="topnav" id="myTopnav">
+			<a href="MainPage.html">Main</a>
+			<a href="Campus.html">Campus</a>
+			<a href="Students.html">Student</a>
+			<a href="PreviousCourses.html">Previous Courses</a>
+			<a href="StJohns.html">St. John's</a>
+			<a href="Grenfell.html">Grenfell</a>
+			<a href="Marine.html">Marine Institute</a>
+		</div>
+		
+		<div id="header">
+			<h1 id="welcome"> Welcome to Our University </h1>
+			<img src="mun-logo.jpg" id="wImg">
+			<p id="addPhone">
+				 Address: 230 Elizabeth Ave, St. John's, NL, A1C 5S7 <br>
+				 Phone: (709) 864-8000 <br>
+			 </p>
+		 </div>
+		
+		<div id="events" contenteditable="true">
+			<h2 id="eHead">Events</h2>
+			<br>
+			<ul>
+				<li>Monday
+					<ul>
+						<li>Risk-based Evaluation of Pitting Corrosion in Process Facilities</li>
+						<li>Basketball game</li>
+					</ul>
+				</li>
+				<li>Tuesday
+					<ul>
+						<li>Leading Organizational Change</li>
+					</ul>
+				</li>
+				<li>Wednesday
+					<ul>
+						<li>Learn About Graduate Studies at Memorial University</li>
+					</ul>
+				</li>
+				<li>Thursday
+					<ul>
+						<li>Open Mic Night</li>
+					</ul>
+				</li>
+				<li>Friday
+					<ul>
+						<li>Last Day of Classes</li>
+					</ul>
+				</li>
+				<li>Saturday
+					<ul>
+						<li>Holiday Movie: A Charlie Brown Christmas</li>
+					</ul>
+				</li>
+				<li>Sunday
+					<ul>
+						<li>Silent Auction</li>
+					</ul>
+				</li>
+			</ul>
+			
+		<input type="button" value="Save Edits" onclick="saveEdits();" id="theButton"/>
+		<div id ="update">This will change if edits are saved</div>
+		</div>
+		
+		<div id="campuses">
+			<h1 id="cHead">Our Campuses</h1>
+			<div id="stj" contenteditable="true">
+				<p id="sInfo"><a href="StJohns.html">St. John's Campus</a> </p>
+				<img src="Stjohns.jpeg" id="sImg">
+			</div>		
+			<div id="grenfell" contenteditable="true">
+				<img src="Grenfell.jpg" id="gImg">
+				<p id="gInfo"><a href="Grenfell.html">Grenfell Campus</a> </p>
+			</div>
+			<div id="marine" contenteditable="true">
+				<p id="mInfo"><a href="Marine.html">Marine Institute</a> </p>
+				<img src="Marine.jpg" id="mImg">
+			</div>
+			<input type="button" value="Update" onclick="saveEdits2();"/>
+		</div>
+		
+		<div id="footer">
+			<p> University info/copyright </p>
+		</div>
+		
+	</body>
+</html>
