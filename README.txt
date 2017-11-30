@@ -3,4 +3,4 @@ GitHub Url:https://github.com/Tangel211/3715Projectgroup10
 EDUAPP URL http://www.cs.mun.ca/~zdl166/EduApp_4_10/MainPage.html
 Group Contribution points: Tyler Angel-13 , Zachary LeDrew-13,Tyson Owens-4
 Data for student tab: usernames "1","2" up to "10, passwords: "11" -"20"
-link fro excalibur: sc-10.cs.mun.ca
+link for excalibur: sc-10.cs.mun.ca
